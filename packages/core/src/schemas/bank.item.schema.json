@@ -1,0 +1,10 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BankItem",
+  "type": "object",
+  "properties": {
+    "problem": { "type": "string" },
+    "answer": { "type": "string" }
+  },
+  "required": ["problem", "answer"]
+}

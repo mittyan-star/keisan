@@ -1,0 +1,6 @@
+{
+  "name": "@keisan/core",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js"
+}
