@@ -1,0 +1,13 @@
+{
+  "L01-basic-no-carry": { "mode": "static", "source": "addition/static_banks/L01-basic-no-carry" },
+  "L02-basic-carry-intro": { "mode": "static", "source": "addition/static_banks/L02-basic-carry-intro" },
+  "L03-ones-domain": { "mode": "static", "source": "addition/static_banks/L03-ones-domain" },
+  "L04-tens-groundwork": { "mode": "generator", "config": "addition/generators/L04-tens-groundwork.json" },
+  "L05-columnar-beginner": { "mode": "generator", "config": "addition/generators/L05-columnar-beginner.json" },
+  "L06-3to4digits": { "mode": "generator", "config": "addition/generators/L06-3to4digits.json" },
+  "L07-three-addends": { "mode": "generator", "config": "addition/generators/L07-three-addends.json" },
+  "L08-decimals": { "mode": "generator", "config": "addition/generators/L08-decimals.json" },
+  "L09-bundles": { "mode": "static", "source": "addition/static_banks/L09-bundles" },
+  "L10-columnar-intermediate": { "mode": "generator", "config": "addition/generators/L10-columnar-intermediate.json" },
+  "L11-word-problems": { "mode": "hybrid", "template": "word/jp/templates/add_*.yml" }
+}
