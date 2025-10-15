@@ -1,0 +1,3 @@
+{"id":"ADD:0001:1+1","a":1,"b":1,"answer":2,"carry":"none","digits":1,"mode":"horizontal","tags":["l01"]}
+{"id":"ADD:0002:1+2","a":1,"b":2,"answer":3,"carry":"none","digits":1,"mode":"horizontal","tags":["l01"]}
+{"id":"ADD:0003:2+2","a":2,"b":2,"answer":4,"carry":"none","digits":1,"mode":"horizontal","tags":["l01"]}
