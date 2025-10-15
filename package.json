@@ -1,0 +1,11 @@
+{
+  "name": "keisan",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Placeholder build pipeline setup for GitHub Pages until the actual app is implemented.",
+  "scripts": {
+    "build": "node scripts/build-placeholder.mjs",
+    "preview": "node scripts/preview-placeholder.mjs"
+  },
+  "packageManager": "pnpm@9.12.0"
+}
