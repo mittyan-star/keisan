@@ -28,7 +28,17 @@ pnpm run preview -- --host 0.0.0.0 --port 4321
 
 `pnpm run build` が成功すると `dist/` ディレクトリが生成され、GitHub Actions と同じ成果物を確認できます。`preview` コマンドを使う場合、Codespace のフォワードポートで `https://<codespace>-4321.app.github.dev` のような URL が払い出され、各ブランチの表示確認ができます。
 
-## 3. トラブルシュート
+## 3. いつ Codespace を使うべきか？
+
+GitHub Actions の Pages ワークフローは push 後に実行されるため、失敗すると修正のために再度コミットする手間が発生します。ブランチの変更内容を push する前に Codespace 上で以下を確認しておくと、ワークフローの失敗を未然に防ぎやすくなります。
+
+- `pnpm install --frozen-lockfile` で依存関係が正しく揃うかどうか。
+- `pnpm run build` が成功し、`dist/` が生成されるかどうか。
+- （必要に応じて）`pnpm run preview` で実際の表示が意図通りかどうか。
+
+既存のブランチを更新した場合や、依存関係・ビルド設定に影響する変更を行った場合は、先に Codespace でビルドしておくことを推奨します。
+
+## 4. トラブルシュート
 
 - 依存関係が更新されている場合は `pnpm install` を再実行してください。
 - Node.js や pnpm のバージョン差異によるビルドエラーは、`devcontainer.json` の設定を更新し Codespace を再構築することで解消します。
