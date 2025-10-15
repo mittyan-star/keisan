@@ -1,0 +1,10 @@
+{
+  "name": "keisan",
+  "version": "1.0.0",
+  "description": "Keisan 学習アプリの依存関係管理用パッケージ定義",
+  "private": true,
+  "engines": {
+    "node": "^20.0.0"
+  },
+  "packageManager": "pnpm@9.0.0"
+}
