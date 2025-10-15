@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "shards": [{"file": "v1_shard-001.jsonl", "count": 3}],
+  "total": 3,
+  "meta": { "level": "L01", "carry": "none", "digits": [1], "locale": "ja-JP" }
+}
