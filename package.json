@@ -6,7 +6,6 @@
   "engines": {
     "node": ">=20.0.0"
   },
-  "packageManager": "pnpm@9.0.0",
   "scripts": {
     "build": "echo \"現時点ではビルド工程が未整備のため、実行する処理はありません。\""
   }
