@@ -4,6 +4,8 @@ settings:
   excludeLinksFromLockfile: false
 importers:
   .:
+    specifiers: {}
     dependencies: {}
     devDependencies: {}
     optionalDependencies: {}
+packages: {}

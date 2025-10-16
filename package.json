@@ -1,13 +1,11 @@
 {
   "name": "keisan",
-  "version": "1.0.0",
-  "description": "Keisan 学習アプリの依存関係管理用パッケージ定義",
+  "version": "0.0.0",
   "private": true,
-  "engines": {
-    "node": ">=20.0.0"
-  },
-  "packageManager": "pnpm@9.0.0",
+  "description": "Placeholder build pipeline setup for GitHub Pages until the actual app is implemented.",
   "scripts": {
-    "build": "echo \"現時点ではビルド工程が未整備のため、実行する処理はありません。\""
-  }
+    "build": "node scripts/build-placeholder.mjs",
+    "preview": "node scripts/preview-placeholder.mjs"
+  },
+  "packageManager": "pnpm@9.12.0"
 }
